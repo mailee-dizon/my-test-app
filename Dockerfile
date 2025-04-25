@@ -12,14 +12,15 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-ENV TEST test2
+ENV TEST=test2
 
 RUN npm run build
 
 FROM base AS runner
 WORKDIR /app
 
-ENV TEST test2
+ENV NODE_ENV=production
+ENV TEST=test2
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 101 nextjs
