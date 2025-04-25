@@ -1,10 +1,9 @@
 import dotenv from "dotenv";
 
-dotenv.config();
-
-console.log(process.env.TEST);
-
 export default function Home() {
+  
+  dotenv.config();
+  console.log(process.env.TEST);
   return (
     <div>
       <h1>Testing {process.env.TEST}</h1>
