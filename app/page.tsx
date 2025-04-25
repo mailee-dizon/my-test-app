@@ -8,7 +8,7 @@ export default function Home() {
   /*
   dotenv.config();
   */
-  const t2 = process.env.TEST
+  let t2 = process.env.TEST
 
   /*
   console.log(process.env.TEST);
@@ -20,6 +20,7 @@ export default function Home() {
       <h1>Testing {t1}</h1>
       <div>
         Joel {t2}
+        Var = {process.env.TEST}
       </div>
     </div>
   );
