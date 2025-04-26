@@ -9,13 +9,13 @@ export default function Home() {
   /*
   dotenv.config();
   */
-  const t2 = process.env.TEST;
+  //const t2 = process.env.TEST;
 
   /*
   console.log(process.env.TEST);
   */
 
-  const t1 = "Hello Mon";
+  //const t1 = "Hello Mon";
   return (
     <div>
       <h1>Hello</h1>
