@@ -5,6 +5,7 @@ export default function Home() {
 
   console.log("Hello Mailee");
   console.log(process.env.TEST);
+  console.log("Testing for changes");
   /*
   dotenv.config();
   */
