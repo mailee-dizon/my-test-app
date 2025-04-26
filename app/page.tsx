@@ -18,12 +18,8 @@ export default function Home() {
   const t1 = "Hello Mon";
   return (
     <div>
-      <h1>Testing {t1}</h1>
-      <div>
-        JJ {t2}
-        <br/>
-        <p>My Test Var: {process.env.TEST}</p>
-      </div>
+      <h1>Hello</h1>
+      <p>mailee</p>
     </div>
   );
 }
