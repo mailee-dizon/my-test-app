@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <h1>Testing {t1}</h1>
       <div>
-        Joel {t2}
+        JJ {t2}
         <br/>
         <p>My Test Var: {process.env.TEST}</p>
       </div>
