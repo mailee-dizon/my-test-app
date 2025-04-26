@@ -21,6 +21,7 @@ export default function Home() {
       <h1>Hello</h1>
       <p>mailee</p>
       <p>changing here</p>
+      <p>Variables: {process.env.TEST}</p>
     </div>
   );
 }
